@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotels</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hotels.css">
+    <script src="jquery-1.7.2.min.js"></script>
+    <script>
+                $(document).ready(function() {
+            $('a#blue').toggle(function(){
+                $('input').css ('display', 'block');},
+                    function() {
+                    $('input').css ('display', 'none');}
+            );
+        });
+    </script>
+</head>
+<body>
+    <div class="root">
+      <div class="first_sub_root">
+        <div class="header-logo-wrapper">
+            <h3>⇱ OUR PARTNERS </h3>
+            <!-- <p> New-York Dubai Paris Stuttgart Switzerland London South-Africa Greece Barbados Maldives
+                 Hawaii Ethiopia Spain Las-Vegas Italy Florida Australia Tokyo Belgium Croatia Austria Brazil
+                  Seychelles</p> -->
+        </div>
+         <div class="logo-name-slogan">
+         <img src="img/—Pngtree—red and black logo_5517319.png" alt="logo" width="40" height="40">
+         <h2>360 Travels</h2>
+         <p>Your Trusted Source of Travel Inspiration</p>
+         </div>
+          <div class="navbar"> 
+             <ul class="nav">
+                <a href="#"><li>Book Now</li></a>
+               <a href="visitOrlando.html"><li>Featured: Orlando</li></a>
+               <a href="visitHongKongnew.html"><li>Featured: Hong-Kong</li></a>
+               <a href="visitLasVegas.html"><li>Featured: Las-Vegas</li></a>
+               <a href="BeachHoliday.html"><li>Beach Holiday</li></a>
+               <a href="hotels.html"><li class="dropdown">Hotels</li></a>
+               <a id="blue" onclick="myFunction()" href="#"><li>SEARCH 360 TRAVELS</li></a> 
+             </ul>
+         </div>
+           <div class="invisible_search"> 
+            <input id="demo" type="search" placeholder="SEARCH 360 TRAVELS">
+           </div>
+    </div>
+
+    <div class="second_sub_root">
+
+        <div class="filter"> 
+            <h2>Filter Articles by:</h2>
+            <ul class="filter-items">
+              <a href="#"><li>London</li></a>
+              <a href="#"><li>Luxury</li></a>
+              <a href="#"><li>Tips</li></a>
+              <a href="#"><li>Family</li></a>
+              <a href="#"><li class="h_w">Health & Wellness</li></a>
+              <a href="#"><li>Maldives</li></a>
+              <a href="#"><li>Opinion</li></a>
+              <a href="#"><li>Greece</li></a>
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="third_sub_root">
+
+        <div class="bottom_root">
+            <div class="related_1">
+               <div class="box"> <img src="imgHotel/hot1-hotels-06-six-senses-shaharut.jpeg" alt=""> </div>
+                             
+                  <h2>Hot hotels: desert escapes</h2> 
+                   <p>These desert hotels offer adventure, luxury and out-of-this world experiences</p>
+             </div>
+             <div class="related_2">
+                <div class="box"><img src="imgHotel/get2-the-look-palm-heights-grand-cayman-00-hero-suite.jpeg" alt=""> </div>
+        
+                    <h2>Bring the luxury Caribbean hotel look to your living room</h2>
+                <p>Get the five-star look of Palm Heights in Grand Cayman with these inspired design accessories</p>
+             </div>
+             <div class="related_3">
+               <div class="box"> <img src="imgHotel/family3-finds-spain-00-hero-murcia-credit-adobe-stock.jpeg" alt=""> </div>
+            
+                <h2>Spain's best hotels for families</h2>
+                <p>Child- and parent-friendly hotels that are perfect for all ages</p>
+             </div>
+             <div class="related_4">
+               <div class="box"> <img src="imgHotel/ba-hols4-00-hero-rosen-inn-shingle-creek.jpeg" alt=""> </div>
+            
+                <h2>British Airways Holidays March offers</h2> 
+                <p>This month, we're spotlighting family-holiday paradise Florida</p>
+            </div>
+         </div>
+
+        
+       <!-- <div class="eacharticle_1">
+        <div class="first_row">
+            <div class="link_0">
+                <img src="imgHotel/hot1-hotels-06-six-senses-shaharut.jpeg" alt="">
+
+                    <h2>Hot hotels: desert escapes</h2>
+
+                    <p>These desert hotels offer adventure, luxury and out-of-this world experiences</p>
+            </div>
+            <div class="link_1">
+                <img src="imgHotel/get2-the-look-palm-heights-grand-cayman-00-hero-suite.jpeg" alt="">
+
+                <h2>Bring the luxury Caribbean hotel look to your living room</h2>
+                <p>Get the five-star look of Palm Heights in Grand Cayman with these inspired design accessories  </p>
+            </div>
+            <div class="link_2">
+                <img src="imgHotel/family3-finds-spain-00-hero-murcia-credit-adobe-stock.jpeg" alt="">
+                <h2>Spain's best hotels for families</h2>
+                <p>Child- and parent-friendly hotels that are perfect for all ages</p>
+            </div>
+            <div class="link_3">
+                <img src="imgHotel/ba-hols4-00-hero-rosen-inn-shingle-creek.jpeg" alt="">
+                <h2>British Airways Holidays March offers</h2>
+                <p>This month, we're spotlighting family-holiday paradise Florida</p>
+            </div>
+            </div>
+        </div> -->
+        <!-- <div class="second_row">
+            <div class="link_4">
+                <img src="imgHotel/hld-03-23-mothers-day-00-hero-petersham-nurseries.jpeg" alt="">
+                <h2>How to spend Mother's Day in London</h2>
+                    <p>The ultimate list of the top ten activities in the UK capital this month that are perfect for a memorable day out with
+                        your ma - or any other significant lady in your life</p>
+            </div>
+            <div class="link_5">
+                <img src="imgHotel/angsana-velavaru-maldives-00-hero.jpeg" alt="">
+                <h2>Paradise at Angsana Velavaru, Maldives
+                    HIGH LIFE PROMOTION </h2>
+                <p>This newly remodelled resort is unparalleled for divers and snorkellers</p>
+            </div>
+            <div class="link_6">
+                <img src="imgHotel/hot-hotels-00-hero-rio-palena-lodge-heli-skiing.jpeg" alt="">
+                <h2>Seven luxury ski hotels to book this season</h2>
+                <p> These sensational hotels in Chile, France and Switzerland come with a generous side of freshly churned snow </p>
+            </div>
+            <div class="link_7">
+                <img src="imgHotel/hotels-five-stars-07-gleneagles-townhouse-edinburgh-promo.jpeg" alt="">
+                <h2>Europe's most luxurious five-star hotels</h2>
+                <p>Featuring Paris, Seville, Santorini and more </p>
+            </div> -->
+        </div>
+
+        <div class="fourth_sub_root">
+
+            <div class="bottom_root">
+                <div class="related_1">
+                   <div class="box"> <img src="imgHotel/hot-hotels-00-hero-rio-palena-lodge-heli-skiing.jpeg" alt=""></div>
+                                 
+                      <h2>How to spend Mother's Day in London</h2> 
+                       <p>The ultimate list of the top ten activities in the UK capital this month that are perfect for a
+                         memorable day out with your ma - or any other significant lady in your life</p>
+                 </div>
+                 <div class="related_2">
+                    <div class="box"><img src="imgHotel/angsana-velavaru-maldives-00-hero.jpeg" alt=""></div>
+            
+                        <h2>Paradise at Angsana Velavaru, Maldives</h2>
+                    <p>This newly remodelled resort is unparalleled for divers and snorkellers</p>
+                 </div>
+                 <div class="related_3">
+                    <div class="box">  <img src="imgHotel/hld-03-23-mothers-day-00-hero-petersham-nurseries.jpeg" alt=""></div>
+                
+                    <h2>Seven luxury ski hotels to book this season</h2> 
+                    <p>These sensational hotels in Chile, France and Switzerland come with a generous side of freshly churned snow </p>
+                 </div>
+                 <div class="related_4">
+                    <div class="box"> <img src="imgHotel/hotels-five-stars-07-gleneagles-townhouse-edinburgh-promo.jpeg" alt=""></div>
+                
+                    <h2>Europe's most luxurious five-star hotels</h2> 
+                    <p>Featuring Paris, Seville, Santorini and more </p>
+                </div>
+             </div>
+
+        </div>
+
+        <div class="fifth_sub_root">
+            <div class="bottom_root">
+                <div class="related_1">
+                    <div class="box"> <img src="imgHotel/get-the-look-00-promo-moxy-athens-city.jpeg" alt=""> </div>
+                                 
+                      <h2>Get the luxury look at home with Moxy Athens</h2> 
+                       <p>Here's what you need to achieve that young-at-heart interiors vibe</p>
+                 </div>
+                 <div class="related_2">
+                   <div class="box"> <img src="imgHotel/connoisseur-00-hero-tina-edmundson.jpeg" alt=""> </div>
+            
+                        <h2>Marriott Hotels Global Brand and Marketing Officer Tina Edmundson talks travel</h2>
+                    <p> Meet Marriott International's global brand and marketing officer</p>
+                 </div>
+                 <div class="related_3">
+                   <div class="box"> <img src="imgHotel/cliffside-hotels-07-the-caves-jamaica.jpeg" alt=""> </div>
+                
+                    <h2>Luxury cliff-edge hotels to book now</h2> 
+                    <p>These clingy properties offer more than just outstanding vistas</p>
+                 </div>
+                 <div class="related_4">
+                   <div class="box"> <img src="imgHotel/hld-07-22-all-inclusive-hotels-03-palmaia-the-house-of-aia.jpeg" alt=""> </div>
+                
+                    <h2>All-inclusive escapes to take you away</h2> 
+                    <p>Wherever in the world you're going, there's an all-inclusive for you</p>
+                </div>
+             </div>
+        </div>
+    </div>
+
+        <div class="sixth_sub_root">
+            <div class="page"><P>Page 1 of 2</P></div>
+             <div class="img"> <a href="hotels_two.html"> <img src="imgBeach/—Pngtree—3d double light blue arrow_8188317.png" alt="next_page" width="40px" height="40px"></a></div>
+         </div>
+        
+        <footer>
+            <ul>
+                <a href="#"><li> About Us</li></a>
+                <a href="#"><li>|  Contact Us</li></a>
+                <a href="#"><li>|  Terms & Conditions</li></a>
+                <a href="#"><li>|  Privacy policy</li></a>
+                <a href="#"><li>|  Cookies</li></a>
+                <a href="#"><li>|  Read Offline</li></a>
+           </ul>
+            <p>&copy; Copyright2023 360Travels. All Rights Reserved. </p>
+        </footer>
+    
+
+</body>
+</html>
